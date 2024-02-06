@@ -19,14 +19,11 @@ You can find all the information to run/build the application on your local or D
 
 ## Preparation
 
-In order to train the model, movie reviews dataset in Python NLTK library will be used
+In order to train the model, movie reviews dataset in Python NLTK library is used.
 
-## Exploratory Data Analysis
-
-The jupyter notebook file `notebook-capstone-project.ipynb` contains exploratory data analysis. In addition, four machine learning models namely Linear SVC, Decision Tree, Random Forest and XGBoost models have been trained with hyper-parameter tuning. The best model with the highest weighted f-1 score has been selected for deployment.
 
 ## Model Training
-- The jupyter notebook file `train_sentiment_analysis` contains text processing and training steps. 
+- The jupyter notebook file `train_sentiment_analysis.ipynb` contains text processing and training steps. 
 - The trained model is saved as `sa_classifier.pickle` file which will be used in sentiment classification.
 
 ## Build and run locally
